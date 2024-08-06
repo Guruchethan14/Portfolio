@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000; /* Change background to black */
+    color: #fff; /* Change text color to white */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    text-align: left; /* Align text to left */
+}
+
+#home .content {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1a1a1a; /* Darker background */
+}
+
+#about, #skills, #projects, #experience, #activities, #contact {
+    background-color: #1a1a1a; /* Darker background */
+}
+
+h1, h2 {
+    color: #b0e57c; /* Light green color for headings */
+    text-align: left; /* Align headings to left */
+}
+
+.profile-photo {
+    display: block;
+    margin: 1rem auto;
+    width: 150px; /* Ensure width is equal to height */
+    height: 150px; /* Ensure height is equal to width */
+    border-radius: 50%; /* Make the photo round */
+    border: 2px solid #b0e57c; /* Light green border */
+    object-fit: cover; /* Ensure the image fits the container */
+}
+
+
+.project, .experience {
+    margin: 2rem 0;
+    border: 2px solid #b0e57c; /* Light green border */
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #333; /* Darker background */
+}
+
+#skills ul, #education ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li, #education li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #b0e57c;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #000; /* Black text for skill tags */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 2px solid #b0e57c; /* Light green border */
+    border-radius: 4px;
+    background-color: #333; /* Darker background */
+    color: #fff; /* White text */
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #b0e57c; /* Light green background */
+    color: #000; /* Black text */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #8cbf5c; /* Darker green on hover */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
